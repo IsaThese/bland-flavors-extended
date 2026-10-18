@@ -1,7 +1,28 @@
 name = "Bland Flavors Extended"
-description = "Warly's stacking food debuff and crockpot-only diet on every character, because balance and difficulty! Special foods like Wortox's souls and WX-78's gears still work."
+description = [[Tired of berry-and-morsel spam? Bland Flavors Extended brings Warly's culinary discipline to the whole cast, crockpot cooking, and real consequences for eating the same dish on repeat.
+
+=== Features ===
+• Food Memory Debuff — Eating the same food again stacks a hunger/health/sanity penalty (Warly-style). Diversify your menu or watch returns drop.
+• Crockpot-Only Diet — Characters can only eat crockpot / prepared foods, just like Warly.
+• Special diets still work — Wortox's souls, WX-78's gears, and other character-specific foods remain usable.
+• Per-character "same old food" quotes when the memory debuff kicks in.
+
+=== Configuration ===
+All options can be mixed and matched for the difficulty you want:
+
+• Food Memory Debuff — On / Off (default: On)
+• Food Memory Duration — 1–4 days (default: 2, Warly)
+• Max Food Memory Stacks — 2–5 (default: 5, Warly)
+• Crockpot-Only Diet — On / Off (default: On)
+• Ignore Favorite Foods — Favorites skip the memory debuff and can still be eaten under crockpot-only (default: Off)
+• Favorite Food Buff Mult — Scale favorite-food hunger bonus from 0.2× to 2.0× (default: 1.0 vanilla)
+• Favorite Food Buff Custom — Free-form multiplier 0–5 via Configs Extended (workshop-3317960157); type "vanilla" to use the slider above
+
+Want only the stacking debuff? Disable Crockpot-Only. Want only prepared-food diets? Disable Food Memory. Both on is the full Warly experience for everyone.
+
+GitHub: https://github.com/IsaThese/bland-flavors-extended]]
 author = "Isaac, Sho"
-version = "1.5"
+version = "1.0.1"
 
 forumthread = ""
 
